@@ -1,0 +1,9 @@
+# DiningHallURLBase: Breakfast = 0, Lunch = 1, Dinner = 2
+# Fox Dining Commons
+UniversityDiningCommons:0, 1, 2
+
+# South Campus Dining Commons
+SouthCampusDiningCommons:1, 2
+
+# Hawk's Nest Dining
+HawksNestDining:2

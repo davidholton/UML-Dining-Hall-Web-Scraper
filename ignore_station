@@ -1,0 +1,11 @@
+#StationName: Breakfast = 0, Lunch = 1, Dinner = 2
+Deli-licious: 1, 2
+Deli: 1, 2
+Farmer's Market: 1, 2
+Fruit Bar: 0
+Grill: 1, 2
+Produce Market: 1, 2
+Rustic Health: 0, 1, 2
+Salad: 2
+Saute: 1
+Sizzle: 1, 2
