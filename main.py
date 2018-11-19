@@ -7,6 +7,7 @@ base_url = 'https://umasslowell.campusdish.com/LocationsAndMenus/{0}?&periodId={
 
 # raw_html = simple_get('https://umasslowell.campusdish.com/LocationsAndMenus/UniversityDiningCommons?locationId=488&storeId=&mode=Daily&periodId=1175&date=11%2F14%2F2018')
 
+
 def clean_word(str1):
     """
             Clean the word from special and uppercase characters
@@ -23,7 +24,7 @@ with open("locations", "r") as location_file:
     for line in location_file:
         if line.strip() and line[0] != '#':
             (k, v) = line.strip().split(":")
-            time = {j.strip() for j in v.split(',')}
+            time = [j.strip() for j in v.split(',')]
             location_list.append({'loc': k, 'time': time})
     location_file.close()
 
